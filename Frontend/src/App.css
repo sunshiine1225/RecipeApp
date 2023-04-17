@@ -1,0 +1,36 @@
+
+
+.add-recipe-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add-recipe-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-recipe-container input[type="text"],
+.add-recipe-container input[type="number"],
+.add-recipe-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.add-recipe-container button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.add-recipe-container button[type="submit"]:hover {
+  background-color: #45a049;
+}
